@@ -55,7 +55,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .main_header {
     background-image: url(../img/dashed-ball-bg.jpeg);
   }
