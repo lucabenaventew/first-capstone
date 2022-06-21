@@ -84,10 +84,10 @@
   }
 
   .hero div div :nth-child(2) {
-    margin: 0.8rem 0rem;
+    margin: 0.8rem 0;
     font-size: 2rem;
     font-weight: 1000;
-    letter-spacing: 0rem;
+    letter-spacing: 0;
   }
 
   .hero div div :nth-child(3) {
