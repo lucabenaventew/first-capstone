@@ -123,6 +123,7 @@
   }
 
   .main_program_container button {
+    margin-top: 3rem;
     font-family: "Lato", sans-serif;
     display: block;
     color: var(--color-light);
