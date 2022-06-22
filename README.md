@@ -1,6 +1,6 @@
-# Portfolio
+# Web Peoject
 
- This is my portfolio where I will be uploading all my jobs.
+ This is a Space Exploration theme website project for my portfolio.
  
  This web is compatible with desktop and mobile users.
 
@@ -11,7 +11,7 @@
 - JAVASCRIPT
 
 ## Live Demo
-Visit this [GitHub pages link]( ) to see the live demo. 🟢🟢🟢
+Visit this [GitHub pages link](https://lucabenaventew.github.io/first-capstone/) to see the live demo. 🟢🟢🟢
 
 ## Getting Started
 
@@ -30,7 +30,10 @@ $ cd first-capstone
 - Twitter: [@BenaventeLuca](https://twitter.com/BenaventeLuca)
 - LinkedIn: [lucabenaventew](https://linkedin.com/in/lucabenaventew/)
 
-## 🤝 Collaborators
+## 🤝 Aknowledgement
+
+This project is based on Cindy Shin's orginal project
+[Click here to visit his amazing project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
 
