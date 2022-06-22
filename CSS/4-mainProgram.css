@@ -1,0 +1,142 @@
+.main_program {
+  background-image: url(../img/dark-cross-bg.jpeg);
+  background-size: 70%;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_program_container {
+  width: 70%;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main_program_container h2 {
+  font-family: "Lato", sans-serif;
+  color: var(--color-light);
+  margin-bottom: -0.5rem;
+}
+
+.main_program_container span {
+  height: 2px;
+  width: 2rem;
+  background-color: var(--color-redish);
+  margin-bottom: 1rem;
+}
+
+.main_program_cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 0.5rem;
+}
+
+.main_program_card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: auto;
+  border: 3px solid rgba(255, 255, 255, 0);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.main_program_card:hover {
+  border: 3px solid rgba(255, 255, 255, 0.9);
+}
+
+.main_program_card i {
+  color: var(--color-light);
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.main_program_card h2 {
+  color: var(--color-redish);
+  border: none;
+  margin: 0;
+}
+
+.main_program_card p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  color: var(--color-light);
+  padding: 0 1rem 1rem 1rem;
+}
+
+.main_program_container a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  color: var(--color-light);
+  border-bottom: 2px solid var(--color-light);
+  padding-bottom: 0.1rem;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+
+.main_program_container button {
+  display: none;
+}
+
+.main_program_container a:hover {
+  opacity: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .main_program {
+    background-size: inherit;
+  }
+
+  .main_program_container {
+    width: 90%;
+  }
+
+  .main_program_cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .main_program_card {
+    display: grid;
+    grid-template-columns: auto 0.7fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .main_program_card h2 {
+    text-align: center;
+  }
+
+  .main_program_card p {
+    text-align: left;
+  }
+
+  .main_program_container a {
+    display: none;
+  }
+
+  .main_program_container button {
+    margin-top: 3rem;
+    font-family: "Lato", sans-serif;
+    display: block;
+    color: var(--color-light);
+    font-weight: 700;
+    background-color: var(--color-redish);
+    font-size: 1.5rem;
+    padding: 2rem 2rem;
+    border: 2px solid var(--color-redish);
+    transition: all 0.5s;
+  }
+
+  .main_program_container button:hover {
+    background-color: var(--color-light);
+    color: var(--color-redish);
+  }
+}

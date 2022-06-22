@@ -1,0 +1,105 @@
+.hero {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../img/dashed-ball-bg.jpeg");
+  background-position: 32.5% 30%;
+}
+
+.hero div {
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero div div {
+  width: 100%;
+  padding: 1rem;
+}
+
+.hero div div :first-child {
+  font-family: "cocogooseThin";
+  font-size: 2rem;
+  color: var(--color-redish);
+}
+
+.hero div div :nth-child(2) {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.4rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-redish);
+  background-image: url(../img/campfire.jpeg);
+  background-position: 100% 70%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero div div :nth-child(3) {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  width: 60%;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #f9f9f9;
+  border: 5px solid var(--color-white);
+  padding: 1rem 1.5rem;
+}
+
+.hero div div :nth-child(4) {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.hero div div :nth-child(5) {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 70vh;
+    background-size: 140%;
+    background-position: 98% 85%;
+  }
+
+  .hero div {
+    padding-top: 3rem;
+    width: 90%;
+    justify-content: flex-start;
+  }
+
+  .hero div div :first-child {
+    font-size: 1.3rem;
+  }
+
+  .hero div div :nth-child(2) {
+    margin: 0.8rem 0;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: 0;
+  }
+
+  .hero div div :nth-child(3) {
+    font-size: 1rem;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+    border: 5px solid var(--color-white);
+    padding: 1rem 1rem;
+  }
+
+  .hero div div :nth-child(4) {
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,141 @@
+.about {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/aboutbg.jpeg);
+  background-position: 110% 0%;
+  background-repeat: no-repeat;
+}
+
+.about .about_container {
+  margin: 5rem 0;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+}
+
+.about .about_container :first-child {
+  font-family: "Lato", sans-serif;
+  color: var(--color-redish);
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about .about_container span {
+  height: 2px;
+  width: 2rem;
+  background-color: var(--color-redish);
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.about .about_container :nth-child(3) {
+  margin: 3rem 0;
+  color: var(--color-dark);
+  font-size: 0.7rem;
+  font-weight: 800;
+  opacity: 0.7;
+  line-height: 1.1rem;
+}
+
+.about .about_container :nth-child(4) {
+  margin: 1.5rem 0 0 0;
+  font-family: "Lato", sans-serif;
+  color: var(--color-dark);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  opacity: 0.8;
+}
+
+.about .about_container :nth-child(5) {
+  margin: 0 0 7rem 0;
+  font-family: "Lato", sans-serif;
+  color: var(--color-black);
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.about .about_container :nth-child(6) {
+  margin: 1rem 0;
+  font-family: "Lato", sans-serif;
+  color: var(--color-black);
+  font-size: 1.5rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.about .about_container :nth-child(7) {
+  margin: 1.5rem 0;
+  font-family: "Lato", sans-serif;
+  color: var(--color-dark);
+  font-size: 0.7rem;
+  font-weight: 800;
+  opacity: 0.7;
+  line-height: 1.1rem;
+}
+
+.about .about_container :nth-child(8) {
+  margin: 2rem 0;
+  width: 11rem;
+  align-self: center;
+}
+
+.about .about_container :nth-child(9) {
+  font-family: "Lato", sans-serif;
+  color: var(--color-black);
+  font-size: 1.5rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.about .about_container :nth-child(11) {
+  font-family: "Lato", sans-serif;
+  color: var(--color-dark);
+  font-size: 0.7rem;
+  font-weight: 800;
+  opacity: 0.7;
+  line-height: 1.1rem;
+}
+
+.about .about_container :nth-child(12) {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.about .about_container :nth-child(12) img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.about .about_container :nth-child(12) img:hover {
+  filter: invert(39%) sepia(76%) saturate(1916%) hue-rotate(338deg) brightness(107%) contrast(94%);
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    background-position: 10% -10%;
+  }
+
+  .about .about_container {
+    width: 90%;
+  }
+
+  .about .about_container :first-child {
+    font-size: 1.8rem;
+  }
+
+  .about .about_container :nth-child(12) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

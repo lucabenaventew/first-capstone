@@ -1,0 +1,44 @@
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container {
+  margin: 4rem 0;
+  width: 70%;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer_container h2 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.footer_text p {
+  font-family: "Lato", sans-serif;
+  color: var(--color-dark);
+}
+
+.footer_text :first-child {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .footer_container {
+    margin: 2rem 0;
+    width: 90%;
+  }
+
+  .footer_text :nth-child(2) {
+    display: none;
+  }
+}
