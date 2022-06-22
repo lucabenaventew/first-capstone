@@ -19,25 +19,20 @@
   height: 3rem;
 }
 
-.main_header div a {
-  font-family: "cocogooseRegular";
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: var(--color-black);
-}
-
 .main_header div ul {
   display: flex;
   gap: 3rem;
   margin-left: 15rem;
 }
 
-.main_header div ul li {
-  cursor: pointer;
+.main_header div ul li a {
+  /* cursor: pointer; */
   transition: all 0.5s;
+  font-weight: 100;
+  color: var(--color-black);
 }
 
-.main_header div ul li:hover {
+.main_header div ul li a:hover {
   color: var(--color-redish);
 }
 

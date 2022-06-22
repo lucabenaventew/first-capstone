@@ -1,0 +1,91 @@
+.featured_speakers {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured_speakers_container {
+  margin: 5rem 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.featured_speakers_container h2 {
+  font-family: "Lato", sans-serif;
+  color: var(--color-dark);
+}
+
+.featured_speakers_container span {
+  height: 2px;
+  width: 2rem;
+  background-color: var(--color-redish);
+  margin-bottom: 1rem;
+}
+
+.featured_speakers_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.featured_speakers_card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem 0 0 1.5rem;
+  background-image: url(../img/b-w-squares.jpeg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 2% 9%;
+}
+
+.featured_speakers_card .card_text {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-dark);
+  gap: 1rem;
+}
+
+.featured_speakers_card .card_text h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.featured_speakers_card .card_text :nth-child(2) {
+  font-family: "Lato", sans-serif;
+  color: var(--color-redish);
+  font-size: 0.8rem;
+}
+
+.featured_speakers_card .card_text :nth-child(3) {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .featured_speakers_container {
+    width: 90%;
+  }
+
+  .featured_speakers_cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .featured_speakers_card {
+    gap: 0.7rem;
+  }
+
+  .featured_speakers_card .card_text {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .featured_speakers_card .card_text :nth-child(3) {
+    text-align: justify;
+  }
+}
