@@ -35,4 +35,4 @@ for (let i = 0; i < cardData.length; i += 1) {
 section.appendChild(container);
 container.appendChild(containerH2);
 container.appendChild(firstSpan);
-container.appendChild(featuredSCards);  
+container.appendChild(featuredSCards);
