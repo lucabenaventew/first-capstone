@@ -33,7 +33,7 @@ $ cd first-capstone
 ## 🤝 Aknowledgement
 
 This project is based on Cindy Shin's orginal project
-[Click here to visit his amazing project](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+[Click here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) to visit his amazing project
 
 ## Show your support
 
@@ -42,4 +42,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is Creative Commons licensed.
