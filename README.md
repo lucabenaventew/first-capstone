@@ -1,4 +1,4 @@
-# Web Peoject
+# Web Project
 
  This is a Space Exploration theme website project for my portfolio.
  
