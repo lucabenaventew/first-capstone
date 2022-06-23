@@ -12,6 +12,8 @@
 
 ## Live Demo
 Visit this [GitHub pages link](https://lucabenaventew.github.io/first-capstone/) to see the live demo. 🟢🟢🟢
+Visit this [link](https://drive.google.com/file/d/1-plCM4uv_-15tBNG0i4tHhXr1AHnTtWE/view?usp=sharing) to see video. 
+
 
 ## Getting Started
 
